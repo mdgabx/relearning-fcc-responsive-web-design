@@ -1,0 +1,59 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Confidential Email</title>
+  <link rel="stylesheets" href="styles.css" />
+</head>
+
+<body>
+  <main id="email">
+    <div id="confidential">CONFIDENTIAL</div>
+    <div id="top-secret">TOP SECRET</div>
+    <p>Dear test, </p>
+
+    <p>We have an emergency. The secret formula for our <span class="blurred">Mega Marshmallow</span> has been compromised. This <span class="blurred">formula</span> is what makes our marshmallows the fluffiest and most delicious.</p>
+
+    <p>Be sure to keep the <span class="blurred">lab's location</span> confidential. Any leak of this information could jeopardize the entire operation.</p>
+  </main>
+</body>
+
+</html>
+
+** end of index.html **
+
+** start of styles.css **
+
+#email {
+  padding: 50px;
+  margin-top: 50px;
+  width: 500px;
+  border: 2px solid black;
+  box-sizing: border-box;
+}
+
+#confidential, #top-secret {
+  display: inline-block;
+  padding: 20px;
+  margin-left: 10px;
+  border: 2px solid red;
+}
+
+#confidential {
+  transform: rotate(-45deg);
+}
+
+#top-secret {
+  transform: rotate(46deg);
+}
+
+.blurred {
+  filter: blur(3px);
+}
+
+** end of styles.css **
+

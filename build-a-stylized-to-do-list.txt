@@ -1,0 +1,89 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Styled To-Do List</title>
+    <link rel="stylesheets" href="./styles.css" />
+</head>
+
+<body>
+    <main>
+        <ul class="todo-list">
+            <li>
+                <input type="checkbox" id="task_1" />
+                <label for="task_1">Task 1</label>
+                <ul class="sub-item">
+                    <li>
+                        <a class="sub-item-link" href="#" target="_blank">sub task 1</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+
+                <input type="checkbox" id="task_2" />
+                <label for="task_2">Task 2</label>
+                <ul class="sub-item">
+                    <li>
+                        <a class="sub-item-link" href="#" target="_blank">sub task 2</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+
+                <input type="checkbox" id="task_3" />
+                <label for="task_3">Task 3</label>
+                <ul class="sub-item">
+                    <li>
+                        <a class="sub-item-link" href="#" target="_blank">sub task 3</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+
+                <input type="checkbox" id="task_4" />
+                <label for="task_4">Task 4</label>
+                <ul class="sub-item">
+                    <li>
+                        <a class="sub-item-link" href="#" target="_blank">sub task 4</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </main>
+</body>
+
+</html>
+
+** end of index.html **
+
+** start of styles.css **
+
+.sub-item-link  {
+  text-decoration: none;
+}
+
+.sub-item-link:link {
+  color: green
+}
+
+.sub-item-link:hover {
+ color: yellow;
+}
+
+.sub-item-link:active {
+  color: red;
+}
+
+.sub-item-link:focus {
+  outline: 1px solid orange; 
+}
+
+.sub-item-link:visited {
+  color: gray;
+}
+
+** end of styles.css **
+

@@ -1,0 +1,41 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Checkout Page</title>
+</head>
+
+<body>
+    <h1>Checkout</h1>
+
+    <section>
+        <h2>Your Cart</h2>
+        <img src="https://cdn.freecodecamp.org/curriculum/labs/cube.jpg" alt="unassembled rubic's cube"/>
+    </section>
+
+    <section>
+        <h2>Payment Information</h2>
+
+        <form>
+            <label for="card-name"><span aria-hidden="true">*</span>Cardholder Name</label>
+            <input id="card-name" type="text"  name="card-name" required />
+
+
+            <label for="card-number"><span aria-hidden="true">*</span>Card Number</label>
+            <input id="card-number" type="text" name="card-number" aria-describedby="card-number-help" required />
+            <p id="card-number-help">Please enter your 16-digit card number without spaces or dashes.</p>
+
+
+
+
+        </form>
+    </section>
+</body>
+
+</html>
+
+** end of index.html **
+

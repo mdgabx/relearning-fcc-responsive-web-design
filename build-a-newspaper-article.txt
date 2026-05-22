@@ -1,0 +1,74 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newspaper Article</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+      <div class="newspaper">
+        <h1 class="name">Innovexa Expands Operations</h1>
+        <p class="date">May 10, 2026, 6:12 pm </p>
+        <h2 class="headline">Tech Startup Expands Into Southeast Asia</h2>
+        <h3 class="sub-headline">Company aims to boost digital innovation across emerging markets</h3>
+        <p class="author">by Jane Doe</p>
+
+        <p class="text">A fast-growing tech startup announced its expansion into Southeast Asia this week, marking a major step in its global growth strategy. The company plans to open offices in Manila, Jakarta, and Ho Chi Minh City, focusing on digital solutions tailored for local businesses.</p>
+        <p class="text">Executives say the move is designed to tap into the region’s rapidly growing digital economy, where demand for e-commerce, fintech, and automation tools continues to rise. The CEO emphasized that the expansion will create new opportunities for collaboration and innovation, while also supporting local talent development.</p>
+      </div>
+  </body>
+</html>
+
+** end of index.html **
+
+** start of styles.css **
+
+html {
+ font-size: 24px; 
+}
+
+.newspaper {
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.name {
+  font-size: 2rem;
+  font-family: 'Times New Roman', serif;
+}
+
+.author {
+  font-weight: bold;
+}
+
+.author, .name {
+  text-transform: uppercase;
+}
+
+.headline {
+  font-size: 2em;
+  font-weight: bold;
+}
+ 
+.sub-headline {
+  font-weight: 100;
+  font-size: 1.5em;
+  font-style: italic;
+
+}
+
+.text{
+  text-indent: 20px;
+  line-height: 2em;
+}
+
+.text::first-letter {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+** end of styles.css **
+
